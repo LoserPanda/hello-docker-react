@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  -webkit-animation: color-change 2s infinite;
+  -moz-animation: color-change 2s infinite;
+  -o-animation: color-change 2s infinite;
+  -ms-animation: color-change 2s infinite;
+  animation: color-change 2s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% { color: lightblue }
+  50% { color: rgb(35, 144, 216); }
+  100% { color: lightblue; }
+}
+@-moz-keyframes color-change {
+  0% { color: lightblue }
+  50% { color: rgb(35, 144, 216); }
+  100% { color: lightblue; }
+}
+@-ms-keyframes color-change {
+  0% { color: lightblue }
+  50% { color: rgb(35, 144, 216); }
+  100% { color: lightblue; }
+}
+@-o-keyframes color-change {
+  0% { color: lightblue }
+  50% { color: rgb(35, 144, 216); }
+  100% { color: lightblue; }
+}
+@keyframes color-change {
+  0% { color: lightblue }
+  50% { color: rgb(35, 144, 216); }
+  100% { color: lightblue; }
+}
